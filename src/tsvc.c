@@ -4029,7 +4029,8 @@ int main(int argc, char ** argv){
     time_function(&s255, NULL);
     time_function(&s256, NULL);
     time_function(&s257, NULL);
-    time_function(&s258, NULL);
+    // https://github.com/UoB-HPC/TSVC_2/issues/8
+    // time_function(&s258, NULL);
     time_function(&s261, NULL);
     time_function(&s271, NULL);
     time_function(&s272, &s1);
