@@ -1694,7 +1694,7 @@ real_t s272(struct args_t * func_args)
 //    control flow
 //    loop with independent conditional
 
-    int t = *(int*)func_args->arg_info;
+    real_t t = *(real_t*)func_args->arg_info;
 
     initialise_arrays(__func__);
     gettimeofday(&func_args->t1, NULL);
@@ -1968,7 +1968,7 @@ real_t s2710(struct args_t * func_args)
 //    control flow
 //    scalar and vector ifs
 
-    int x = *(int*)func_args->arg_info;
+    real_t x = *(real_t*)func_args->arg_info;
 
     initialise_arrays(__func__);
     gettimeofday(&func_args->t1, NULL);
@@ -2775,7 +2775,7 @@ real_t s332(struct args_t * func_args)
 //    search loops
 //    first value greater than threshold
 
-    int t = *(int*)func_args->arg_info;
+    real_t t = *(real_t*)func_args->arg_info;
 
     initialise_arrays(__func__);
     gettimeofday(&func_args->t1, NULL);
